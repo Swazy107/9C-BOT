@@ -1,0 +1,19 @@
+{
+  "name": "9c-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "drizzle-orm": "^0.39.3",
+    "express": "^4.21.2",
+    "node-cron": "^4.2.1",
+    "pg": "^8.16.3",
+    "zod": "^3.24.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
